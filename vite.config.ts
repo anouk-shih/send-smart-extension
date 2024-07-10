@@ -14,6 +14,6 @@ export const testConfig = defineVitestConfig({
   test: {
     environment: "jsdom",
     globals: true,
-    setupFiles: "./tests/setup.ts",
+    setupFiles: "./__tests__/setup.ts",
   },
 });
